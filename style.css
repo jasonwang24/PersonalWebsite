@@ -30,6 +30,7 @@
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  display: block;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -471,18 +472,8 @@ li {
   }
 }
 
-@media screen and (min-width: 800px) {
-  .background-video-element {
-    display: block;
-  }
-}
-
 /*Extra Screens*/
 @media screen and (max-width:768px) {
-  .background-video-container {
-    position: relative;
-  }
-
   .background-video-element {
     display: none;
   }
