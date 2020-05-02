@@ -28,9 +28,6 @@ var summary_txt = {
     "\n\n" +
     "I'm open to any opportunities to grow, learn or just meet new people! Reach out 🙂" +
     "\n\n"
-
-
-
 };
 
 var contact_txt = {
@@ -42,7 +39,9 @@ var contact_txt = {
 };
 
 var resume_pdf = {
-
+  name: "Jason_Wang_Resume.pdf",
+  type: "pdf",
+  link: "Jason_Wang_Resume.pdf"
 };
 
 var resume_txt = {
@@ -170,7 +169,8 @@ var aboutme = {
       callback([
         'summary.txt',
         'resume.txt',
-        'contact.txt'
+        'contact.txt',
+        'Jason_Wang_Resume.pdf'
       ]);
     },
   }
