@@ -7,6 +7,31 @@
   min-height: 100%;
 }
 
+.background-video-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.background-video-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
@@ -446,10 +471,24 @@ li {
   }
 }
 
+@media screen and (min-width: 800px) {
+  .background-video-element {
+    display: block;
+  }
+}
+
 /*Extra Screens*/
 @media screen and (max-width:768px) {
+  .background-video-container {
+    position: relative;
+  }
+
+  .background-video-element {
+    display: none;
+  }
+
   body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.mp4") no-repeat center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/wallpaper.jpg") no-repeat center fixed;
     background-size: cover;
     background-color: #1A1A1D;
   }

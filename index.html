@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jason's Website</title>
-  <link rel="icon" href="images/logo.PNG">
+  <link rel="icon" href="images/logo.png">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
@@ -188,9 +188,12 @@
 </head>
 
 <body>
-  <video autoplay muted loop id="myVideo">
-    <source src="images/stars.mp4" type="video/mp4">
-  </video>
+  <div class="background-video-container">
+    <video class="background-video-element" autoplay muted loop>
+      <source src="images/stars.mp4" type="video/mp4">
+    </video>
+  </div>
+
   <header>
     <div id="tilda"></div>
     <div class="list-toggle">
