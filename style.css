@@ -179,9 +179,15 @@ li {
   font-family: 'Anton', sans-serif;
 }
 
-.title-text h6 {
+.title-text h5 {
   font-size: 5rem;
   font-family: 'Anton', sans-serif;
+}
+
+.title-text h6 {
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-style: Oblique;
 }
 
 /*About Section*/
@@ -446,11 +452,15 @@ li {
   }
 
   .title-text h1 {
-    font-size: 5rem;
+    font-size: 6rem;
+  }
+
+  .title-text h5 {
+    font-size: 1.7rem;
   }
 
   .title-text h6 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
 
   .nav-list {
@@ -478,11 +488,15 @@ li {
   }
 
   .title-text h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
+  }
+
+  .title-text h5 {
+    font-size: 2rem;
   }
 
   .title-text h6 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .nav-link {
