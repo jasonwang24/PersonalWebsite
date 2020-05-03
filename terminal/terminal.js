@@ -213,3 +213,4 @@ var home = {
 aboutme.back = home;
 projects.back = home;
 coding.back = projects;
+hardware.back = projects;
