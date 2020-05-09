@@ -98,8 +98,13 @@ var help = {
 
 };
 
-var hotels = {
-  name: "hotel_scraper.git",
+var MusicMaker = {
+  name: "MusicMaker.demo",
+  type: "pdf",
+  link: "http://jasonwang.site/MusicMaker"
+};
+var Hotels = {
+  name: "HotelScraper.git",
   type: "pdf",
   link: "https://github.com/jasonwang24/Python-Tripadvisor-Webcrawler"
 };
@@ -127,15 +132,16 @@ var AutoCar = {
 var coding = {
   name: "Coding",
   type: "folder",
-  kids: [hotels, NBA, WorkSessions, help],
+  kids: [MusicMaker, Hotels, NBA, WorkSessions, help],
   back: projects,
   setg: {
     prompt: '[[b;lime;black]jasonwang:/Projects/Coding~] ',
     name: 'jasonwang',
     completion: function(string, callback) {
       callback([
+        'MusicMaker.demo',
         'NBA.git',
-        'hotel_scraper.git',
+        'HotelScraper.git',
         'WorkSessions.git'
       ]);
     },
