@@ -55,8 +55,8 @@ var resume_txt = {
 \n2B Honours Applied Science - Mechanical Engineering Major, Computer Science Option\
 \n********************************************************************************\
 \n\
-\n   Languages: Python, Java, C#, HTML/CSS, Javascript\
-\n   Technologies: Node.js, React, Express, MySQL, MongoDB, Docker, AWS, Jenkins, Elasticsearch, Git\
+\n   Languages: Python, Java, C#, HTML/CSS, JavaScript/TypeScript\
+\n   Technologies: Node.js, React, Django, Express, MySQL, MongoDB, Docker, AWS, Jenkins, Git\
 \n\
 \n\
 \n==========\
@@ -91,7 +91,7 @@ var resume_txt = {
 \n*********\
 \n\
 \n   University of Waterloo\
-\n      3.7 GPA, President's Scholarship, WatPD Engineering Scholarship\
+\n      3.9 GPA, President's Scholarship, WatPD Engineering Scholarship\
 "
 };
 
