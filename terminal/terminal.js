@@ -52,7 +52,7 @@ var resume_txt = {
 \n                                  Jason Wang\
 \njason.wang1@uwaterloo.ca                                            (647)285-9303\
 \n\
-\n2B Honours Applied Science - Mechanical Engineering Major, Computer Science Option\
+\n2A Honours Applied Science - Computer Engineering Major\
 \n********************************************************************************\
 \n\
 \n   Languages: Python, Java, C#, HTML/CSS, JavaScript/TypeScript\
