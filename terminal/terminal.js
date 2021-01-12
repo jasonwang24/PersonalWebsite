@@ -21,10 +21,10 @@ var summary_txt = {
   name: "summary.txt",
   type: "txt",
   text: "My name is Jason Wang, I'm a [[b;red;black]Mechanical Engineering] major pursuing a [[b;red;black]Computer Science] Option at [[b;red;black]University of Waterloo]\n\n" +
-    "From my internships, I've gotten experience in developing [[b;aqua;black]internal tools] for financial traders and [[b;aqua;black]cloud applications] for pharmaceutical companies" +
+    "From my internships, I've gotten experience in developing [[b;aqua;black]internal tools] for financial traders, [[b;aqua;black]cloud applications] for pharmaceutical companies and [[b;aqua;black]web platforms] to streamline manufacturing processes" +
     "\nI am interested in [[b;deeppink;black]developing apps], [[b;deeppink;black]scaling infrastructure] and I've recently started looking into [[b;deeppink;black]Android development] as well.\n" +
     "\nMy interests and prior experiences include:\n" +
-    "[[b;orange;black]Web and App Development, Data Encryption and Cloud Computing]" +
+    "[[b;orange;black]Web and App Development and Cloud Computing]" +
     "\n\n" +
     "I'm open to any opportunities to grow, learn or just meet new people! Reach out 🙂" +
     "\n\n"
@@ -62,6 +62,12 @@ var resume_txt = {
 \n==========\
 \nExperience\
 \n==========\
+\n   ___________________________________________________________________________\
+\n   Interaptix AR\
+\n   Software Engineering Intern - Web\
+\n      - Optimized Django REST Framework APIs by redesigning endpoints \
+\n      - Built key React components for the web platform allowing for supervisors to inspect manufactured parts \
+\n      - Created an extensible end-to-end chat messaging feature and notification system \
 \n   ___________________________________________________________________________\
 \n   Veeva Systems\
 \n   Software Engineering Intern - Vault Safety.AI Team\
